@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ============== Header Section =============== */
+header {
+    background-color: #636c79;
+    padding: 50px 30px 100px;
+}
+
+/* Nav Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    width: 500px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    color: #fff;
+}
+
+.nav-button>button {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Intro Section */
+
+.intro {
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .intro-image {
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+} */
+
+.intro-image>img {
+    width: 450px;
+    height: 500px;
+}
+
+.intro-description {
+    width: 500px;
+}
+
+.intro-description>h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.intro-description>p {
+    margin: 40px 0px 70px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.connect {
+    min-width: 350px;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.mail-logo {
+    height: 40px;
+}
+
+.connect>input {
+    background-color: #fff;
+    border: none;
+    height: 60px;
+    width: 300px;
+}
+
+.connect>button {
+    position: absolute;
+    right: 10px;
+}
+
+.general-btn {
+    background-color: #8bb7a2;
+    color: #fff;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* ==================== Achievement Section ===================== */
+.achievements {
+    margin: 150px;
+    /* text-align: center; */
+}
+
+.achievements h2 {
+    font-size: 30px;
+}
+
+.achievements-heading>h2 {
+    width: 500px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.number {
+    text-align: center;
+}
+
+.number>h3 {
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+
+.achievements>img {
+    width: 100%;
+    height: 600px;
+}
+
+/* ================== Services Section =================== */
+.services {
+    margin: 0px 150px 150px;
+}
+
+.services>h1 {
+    font-size: 40px;
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.service {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-desc {
+    width: calc(100vw - 300px - 500px - 100px);
+}
+
+.service-desc>p {
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.8;
+    margin: 30px 0px 50px;
+}
+
+
+.service-image {
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.service-image>img {
+    position: absolute;
+    right: 0;
+    height: 500px;
+}
+
+#second-service-img {
+    width: 500px;
+    height: auto;
+}
+
+
+/* ================ Teams Section ============== */
+.teams {
+    margin: 150px;
+}
+
+.teams-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.teams-intro>h2 {
+    font-size: 35px;
+    width: 400px;
+}
+
+.teams-intro> p {
+    width: 500px;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.members{
+    display: flex;
+    justify-content: space-between;
+}
+
+.member {
+    width: calc((100vw - 300px - 100px) / 3);
+}
+
+.member>p {
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.member-image {
+    width: calc((100vw - 300px - 100px) / 3);
+}
+
+.see-more-btn {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+
+/* ================= Footer Section ================== */
+footer {
+    background-color: #10181d;
+    padding: 50px 150px;
+}
+
+.upper-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #fff;
+}
+
+.links {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.link {
+    color: white;
+}
+
+.link-list {
+    list-style: none;
+}
+
+.link-list-item {
+    margin: 20px 0px;
+}
+
+.link-list-item>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
